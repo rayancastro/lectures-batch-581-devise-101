@@ -2,6 +2,10 @@ class FlatsController < ApplicationController
   before_action :set_flat, only: %i[ show edit update destroy ]
   skip_before_action :authenticate_user!, only: :index
 
+  def banana
+
+  end
+
   # GET /flats or /flats.json
   def index
     @flats = Flat.all

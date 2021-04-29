@@ -7,6 +7,10 @@ class FlatsController < ApplicationController
     @flats = Flat.all
   end
 
+  def apple
+
+  end
+
   # GET /flats/1 or /flats/1.json
   def show
   end
